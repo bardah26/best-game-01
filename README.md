@@ -1,8 +1,8 @@
 # best-game-01
 
-[![Competition](https://make.fun/badge/best-game-01.svg)](https://make.fun/bounty/best-game-01)
-[![Rank](https://make.fun/badge/bardah26/best-game-01/rank.svg)](https://make.fun/bounty/best-game-01)
-[![Reward](https://make.fun/badge/bardah26/best-game-01/reward.svg)](https://make.fun/bounty/best-game-01)
+[![make.fun · best-game-01](https://make.fun/badge/best-game-01.svg)](https://make.fun/bounty/best-game-01?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+[![rank](https://make.fun/badge/best-game-01/bardah26/best-game-01/rank.svg)](https://make.fun/bounty/best-game-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+[![reward](https://make.fun/badge/best-game-01/bardah26/best-game-01/reward.svg)](https://make.fun/bounty/best-game-01?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
 
 **Emberlight — A Firefly's Dawn Run.** You are Ember, the last firefly of the Hollow. Your glow is your life: it drains as you fly, faster in the gloom. Feed it with drifting embers, shatter the shadow wisps with a pulse of light (each pulse costs light), and reach the Dawn Gate 1200 metres away before you go dark.
 
