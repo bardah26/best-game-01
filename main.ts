@@ -55,10 +55,17 @@ function copyTree(source, target) {
 // Start from a clean output directory so a stale file from an earlier
 // run can never leak into the entry (and so the two grader runs agree
 // byte for byte even when the second reuses the first's directory).
+// Only the directory's CONTENTS are removed, never the directory
+// itself: in the grader /output is a writable mount on a read-only
+// filesystem, so removing it and recreating it fails — its parent /
+// is not writable — while removing its children works everywhere.
 if (existsSync(outputDir)) {
-  rmSync(outputDir, { recursive: true, force: true });
+  for (const name of readdirSync(outputDir)) {
+    rmSync(join(outputDir, name), { recursive: true, force: true });
+  }
+} else {
+  mkdirSync(outputDir, { recursive: true });
 }
-mkdirSync(outputDir, { recursive: true });
 
 copyTree(join(repoRoot, 'game'), join(outputDir, 'game'));
 if (existsSync(join(repoRoot, 'screenshots'))) {
